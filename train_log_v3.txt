@@ -1,0 +1,61 @@
+nohup: ignoring input
+Using device: cuda
+Loading dataframe...
+Train size: 52462, Val size: 2761
+Loading similarity dictionary from /data/lzy/SASRec_Project/item_similarity.pkl...
+Parsing sequences...
+Loaded 290625 sequences.
+Parsing sequences...
+Loaded 2761 sequences.
+Loading text embeddings from /data/lzy/SASRec_Project/item_embeddings.pkl...
+/data/lzy/miniconda/envs/web_rec/lib/python3.8/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+Epoch 1/5, Batch 0, Loss: 10.1715, Rec: 9.7642, CL: 4.0730
+Epoch 1/5, Batch 100, Loss: 9.9190, Rec: 9.5671, CL: 3.5184
+Epoch 1/5, Batch 200, Loss: 9.6288, Rec: 9.3497, CL: 2.7902
+Epoch 1/5, Batch 300, Loss: 9.5198, Rec: 9.1817, CL: 3.3809
+Epoch 1/5, Batch 400, Loss: 9.5951, Rec: 9.3035, CL: 2.9158
+Epoch 1/5, Batch 500, Loss: 9.4257, Rec: 9.1119, CL: 3.1382
+Epoch 1/5, Batch 600, Loss: 9.3658, Rec: 9.0641, CL: 3.0161
+Epoch 1/5, Batch 700, Loss: 9.1946, Rec: 8.9464, CL: 2.4818
+Epoch 1/5, Batch 800, Loss: 9.0916, Rec: 8.8526, CL: 2.3903
+Epoch 1/5, Batch 900, Loss: 9.3263, Rec: 9.0021, CL: 3.2422
+Epoch 1/5, Batch 1000, Loss: 9.1143, Rec: 8.8786, CL: 2.3568
+Epoch 1/5, Batch 1100, Loss: 8.9246, Rec: 8.7192, CL: 2.0536
+Epoch 1/5, Batch 1200, Loss: 9.0136, Rec: 8.7754, CL: 2.3811
+Epoch 1/5, Batch 1300, Loss: 9.0779, Rec: 8.8228, CL: 2.5504
+Epoch 1/5, Batch 1400, Loss: 9.0300, Rec: 8.7162, CL: 3.1376
+Epoch 1/5, Batch 1500, Loss: 9.0081, Rec: 8.6469, CL: 3.6119
+Epoch 1/5, Batch 1600, Loss: 9.0034, Rec: 8.7296, CL: 2.7375
+Epoch 1/5, Batch 1700, Loss: 8.6698, Rec: 8.4203, CL: 2.4953
+Epoch 1/5, Batch 1800, Loss: 8.8310, Rec: 8.5449, CL: 2.8612
+Epoch 1/5, Batch 1900, Loss: 8.8504, Rec: 8.6251, CL: 2.2530
+Epoch 1/5, Batch 2000, Loss: 8.8391, Rec: 8.5515, CL: 2.8761
+Epoch 1/5, Batch 2100, Loss: 8.7502, Rec: 8.4710, CL: 2.7919
+Epoch 1/5, Batch 2200, Loss: 8.7878, Rec: 8.4971, CL: 2.9062
+Epoch 1/5, Batch 2300, Loss: 8.8191, Rec: 8.5500, CL: 2.6916
+Epoch 1/5, Batch 2400, Loss: 8.7418, Rec: 8.4677, CL: 2.7414
+Epoch 1/5, Batch 2500, Loss: 8.6170, Rec: 8.3779, CL: 2.3910
+Epoch 1/5, Batch 2600, Loss: 8.8531, Rec: 8.5845, CL: 2.6859
+Epoch 1/5, Batch 2700, Loss: 8.6669, Rec: 8.4539, CL: 2.1299
+Epoch 1/5, Batch 2800, Loss: 8.9616, Rec: 8.6532, CL: 3.0837
+Epoch 1/5, Batch 2900, Loss: 8.7359, Rec: 8.4711, CL: 2.6476
+Epoch 1/5, Batch 3000, Loss: 8.5581, Rec: 8.2992, CL: 2.5890
+Epoch 1/5, Batch 3100, Loss: 8.7327, Rec: 8.4763, CL: 2.5644
+Epoch 1/5, Batch 3200, Loss: 8.5443, Rec: 8.2153, CL: 3.2891
+Epoch 1/5, Batch 3300, Loss: 8.5310, Rec: 8.2277, CL: 3.0333
+Epoch 1/5, Batch 3400, Loss: 8.4009, Rec: 8.1490, CL: 2.5191
+Epoch 1/5, Batch 3500, Loss: 8.4007, Rec: 8.1142, CL: 2.8657
+Epoch 1/5, Batch 3600, Loss: 8.3271, Rec: 8.1147, CL: 2.1244
+Epoch 1/5, Batch 3700, Loss: 8.5466, Rec: 8.2630, CL: 2.8355
+Epoch 1/5, Batch 3800, Loss: 8.3866, Rec: 8.1659, CL: 2.2071
+Epoch 1/5, Batch 3900, Loss: 8.5538, Rec: 8.2714, CL: 2.8235
+Epoch 1/5, Batch 4000, Loss: 8.3651, Rec: 8.1572, CL: 2.0787
+Epoch 1/5, Batch 4100, Loss: 8.3186, Rec: 8.0152, CL: 3.0338
+Epoch 1/5, Batch 4200, Loss: 8.4426, Rec: 8.1304, CL: 3.1228
+Epoch 1/5, Batch 4300, Loss: 8.2717, Rec: 7.9929, CL: 2.7880
+Epoch 1/5, Batch 4400, Loss: 8.2832, Rec: 8.0946, CL: 1.8852
+Epoch 1/5, Batch 4500, Loss: 8.0315, Rec: 7.7667, CL: 2.6480
+Epoch 1 Training Loss: 8.8127, LR: 0.000760
+Epoch 1 Validation Loss: 7.5851
+Saved best model.

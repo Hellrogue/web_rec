@@ -1,0 +1,157 @@
+nohup: ignoring input
+Using device: cuda
+Loading dataframe...
+Train size: 52462, Val size: 2761
+Loading similarity dictionary from /data/lzy/SASRec_Project/item_similarity.pkl...
+Parsing sequences...
+Loaded 290625 sequences.
+Parsing sequences...
+Loaded 2761 sequences.
+Loading text embeddings from /data/lzy/SASRec_Project/item_embeddings.pkl...
+Epoch 1/3, Batch 0, Loss: 10.2280, Rec: 9.7632, CL: 4.6482
+Epoch 1/3, Batch 100, Loss: 9.0191, Rec: 8.7445, CL: 2.7460
+Epoch 1/3, Batch 200, Loss: 8.9131, Rec: 8.6449, CL: 2.6821
+Epoch 1/3, Batch 300, Loss: 8.7242, Rec: 8.4568, CL: 2.6746
+Epoch 1/3, Batch 400, Loss: 8.9419, Rec: 8.5853, CL: 3.5660
+Epoch 1/3, Batch 500, Loss: 8.5433, Rec: 8.2411, CL: 3.0218
+Epoch 1/3, Batch 600, Loss: 8.3026, Rec: 8.0597, CL: 2.4296
+Epoch 1/3, Batch 700, Loss: 8.3320, Rec: 8.0764, CL: 2.5555
+Epoch 1/3, Batch 800, Loss: 8.3052, Rec: 8.0372, CL: 2.6807
+Epoch 1/3, Batch 900, Loss: 8.4252, Rec: 8.1450, CL: 2.8016
+Epoch 1/3, Batch 1000, Loss: 8.2014, Rec: 7.9448, CL: 2.5656
+Epoch 1/3, Batch 1100, Loss: 8.4732, Rec: 8.1403, CL: 3.3286
+Epoch 1/3, Batch 1200, Loss: 8.1958, Rec: 7.9169, CL: 2.7888
+Epoch 1/3, Batch 1300, Loss: 8.2046, Rec: 7.9870, CL: 2.1757
+Epoch 1/3, Batch 1400, Loss: 8.2085, Rec: 7.8978, CL: 3.1070
+Epoch 1/3, Batch 1500, Loss: 8.0929, Rec: 7.8565, CL: 2.3644
+Epoch 1/3, Batch 1600, Loss: 8.1956, Rec: 7.8890, CL: 3.0661
+Epoch 1/3, Batch 1700, Loss: 8.1002, Rec: 7.8144, CL: 2.8579
+Epoch 1/3, Batch 1800, Loss: 8.1828, Rec: 7.9173, CL: 2.6551
+Epoch 1/3, Batch 1900, Loss: 8.1761, Rec: 7.9012, CL: 2.7490
+Epoch 1/3, Batch 2000, Loss: 8.2846, Rec: 7.9961, CL: 2.8842
+Epoch 1/3, Batch 2100, Loss: 8.1514, Rec: 7.8637, CL: 2.8775
+Epoch 1/3, Batch 2200, Loss: 8.1814, Rec: 7.8642, CL: 3.1714
+Epoch 1/3, Batch 2300, Loss: 8.4302, Rec: 8.1026, CL: 3.2766
+Epoch 1/3, Batch 2400, Loss: 7.9315, Rec: 7.7201, CL: 2.1144
+Epoch 1/3, Batch 2500, Loss: 8.0170, Rec: 7.7741, CL: 2.4293
+Epoch 1/3, Batch 2600, Loss: 7.9136, Rec: 7.6874, CL: 2.2620
+Epoch 1/3, Batch 2700, Loss: 7.9523, Rec: 7.7093, CL: 2.4295
+Epoch 1/3, Batch 2800, Loss: 7.9680, Rec: 7.7315, CL: 2.3651
+Epoch 1/3, Batch 2900, Loss: 8.1226, Rec: 7.8194, CL: 3.0323
+Epoch 1/3, Batch 3000, Loss: 8.4229, Rec: 8.1598, CL: 2.6312
+Epoch 1/3, Batch 3100, Loss: 8.0110, Rec: 7.7005, CL: 3.1046
+Epoch 1/3, Batch 3200, Loss: 7.9887, Rec: 7.6676, CL: 3.2109
+Epoch 1/3, Batch 3300, Loss: 7.7417, Rec: 7.4292, CL: 3.1249
+Epoch 1/3, Batch 3400, Loss: 7.8307, Rec: 7.5562, CL: 2.7450
+Epoch 1/3, Batch 3500, Loss: 7.9638, Rec: 7.7033, CL: 2.6057
+Epoch 1/3, Batch 3600, Loss: 8.1827, Rec: 7.9209, CL: 2.6178
+Epoch 1/3, Batch 3700, Loss: 8.0810, Rec: 7.8385, CL: 2.4243
+Epoch 1/3, Batch 3800, Loss: 8.1207, Rec: 7.8787, CL: 2.4203
+Epoch 1/3, Batch 3900, Loss: 7.8876, Rec: 7.6361, CL: 2.5147
+Epoch 1/3, Batch 4000, Loss: 7.9606, Rec: 7.6838, CL: 2.7678
+Epoch 1/3, Batch 4100, Loss: 7.9673, Rec: 7.6925, CL: 2.7478
+Epoch 1/3, Batch 4200, Loss: 8.1641, Rec: 7.8521, CL: 3.1194
+Epoch 1/3, Batch 4300, Loss: 7.9554, Rec: 7.7122, CL: 2.4318
+Epoch 1/3, Batch 4400, Loss: 7.8547, Rec: 7.5636, CL: 2.9108
+Epoch 1/3, Batch 4500, Loss: 7.9276, Rec: 7.6849, CL: 2.4269
+Epoch 1 Training Loss: 8.1876, LR: 0.000750
+Epoch 1 Validation Loss: 7.0021
+Saved best model.
+Epoch 2/3, Batch 0, Loss: 7.8891, Rec: 7.6490, CL: 2.4001
+Epoch 2/3, Batch 100, Loss: 7.6513, Rec: 7.4222, CL: 2.2903
+Epoch 2/3, Batch 200, Loss: 8.0125, Rec: 7.7874, CL: 2.2504
+Epoch 2/3, Batch 300, Loss: 8.0051, Rec: 7.7062, CL: 2.9885
+Epoch 2/3, Batch 400, Loss: 7.9951, Rec: 7.6888, CL: 3.0628
+Epoch 2/3, Batch 500, Loss: 7.6102, Rec: 7.3537, CL: 2.5654
+Epoch 2/3, Batch 600, Loss: 7.4538, Rec: 7.2102, CL: 2.4359
+Epoch 2/3, Batch 700, Loss: 7.9029, Rec: 7.6469, CL: 2.5599
+Epoch 2/3, Batch 800, Loss: 7.6659, Rec: 7.4170, CL: 2.4891
+Epoch 2/3, Batch 900, Loss: 7.7858, Rec: 7.4962, CL: 2.8955
+Epoch 2/3, Batch 1000, Loss: 7.8647, Rec: 7.5929, CL: 2.7183
+Epoch 2/3, Batch 1100, Loss: 7.8954, Rec: 7.6294, CL: 2.6604
+Epoch 2/3, Batch 1200, Loss: 7.6781, Rec: 7.4189, CL: 2.5919
+Epoch 2/3, Batch 1300, Loss: 7.6526, Rec: 7.3865, CL: 2.6610
+Epoch 2/3, Batch 1400, Loss: 7.6805, Rec: 7.4472, CL: 2.3330
+Epoch 2/3, Batch 1500, Loss: 7.6656, Rec: 7.4190, CL: 2.4657
+Epoch 2/3, Batch 1600, Loss: 7.9420, Rec: 7.6646, CL: 2.7739
+Epoch 2/3, Batch 1700, Loss: 7.9477, Rec: 7.6967, CL: 2.5108
+Epoch 2/3, Batch 1800, Loss: 7.6415, Rec: 7.3922, CL: 2.4926
+Epoch 2/3, Batch 1900, Loss: 7.4881, Rec: 7.1745, CL: 3.1353
+Epoch 2/3, Batch 2000, Loss: 7.9415, Rec: 7.7302, CL: 2.1137
+Epoch 2/3, Batch 2100, Loss: 8.0696, Rec: 7.7692, CL: 3.0031
+Epoch 2/3, Batch 2200, Loss: 7.9086, Rec: 7.6432, CL: 2.6537
+Epoch 2/3, Batch 2300, Loss: 7.8605, Rec: 7.5892, CL: 2.7122
+Epoch 2/3, Batch 2400, Loss: 7.5162, Rec: 7.3063, CL: 2.0991
+Epoch 2/3, Batch 2500, Loss: 7.9056, Rec: 7.6877, CL: 2.1785
+Epoch 2/3, Batch 2600, Loss: 7.8545, Rec: 7.5882, CL: 2.6624
+Epoch 2/3, Batch 2700, Loss: 7.6910, Rec: 7.4436, CL: 2.4739
+Epoch 2/3, Batch 2800, Loss: 7.6419, Rec: 7.3958, CL: 2.4607
+Epoch 2/3, Batch 2900, Loss: 7.8491, Rec: 7.5623, CL: 2.8679
+Epoch 2/3, Batch 3000, Loss: 8.0290, Rec: 7.7595, CL: 2.6950
+Epoch 2/3, Batch 3100, Loss: 7.5988, Rec: 7.3489, CL: 2.4986
+Epoch 2/3, Batch 3200, Loss: 7.8725, Rec: 7.6128, CL: 2.5973
+Epoch 2/3, Batch 3300, Loss: 7.3952, Rec: 7.1284, CL: 2.6684
+Epoch 2/3, Batch 3400, Loss: 7.8326, Rec: 7.5506, CL: 2.8202
+Epoch 2/3, Batch 3500, Loss: 7.8471, Rec: 7.5600, CL: 2.8707
+Epoch 2/3, Batch 3600, Loss: 7.9376, Rec: 7.6670, CL: 2.7057
+Epoch 2/3, Batch 3700, Loss: 7.6363, Rec: 7.3284, CL: 3.0786
+Epoch 2/3, Batch 3800, Loss: 7.6373, Rec: 7.4084, CL: 2.2890
+Epoch 2/3, Batch 3900, Loss: 7.6960, Rec: 7.4467, CL: 2.4924
+Epoch 2/3, Batch 4000, Loss: 7.6878, Rec: 7.4501, CL: 2.3765
+Epoch 2/3, Batch 4100, Loss: 7.7054, Rec: 7.4159, CL: 2.8945
+Epoch 2/3, Batch 4200, Loss: 7.7118, Rec: 7.4139, CL: 2.9789
+Epoch 2/3, Batch 4300, Loss: 7.8826, Rec: 7.6177, CL: 2.6492
+Epoch 2/3, Batch 4400, Loss: 7.9447, Rec: 7.7327, CL: 2.1192
+Epoch 2/3, Batch 4500, Loss: 7.6701, Rec: 7.3975, CL: 2.7269
+Epoch 2 Training Loss: 7.7977, LR: 0.000250
+Epoch 2 Validation Loss: 6.8255
+Saved best model.
+Epoch 3/3, Batch 0, Loss: 7.7290, Rec: 7.5081, CL: 2.2093
+Epoch 3/3, Batch 100, Loss: 7.8896, Rec: 7.6371, CL: 2.5253
+Epoch 3/3, Batch 200, Loss: 7.7208, Rec: 7.3979, CL: 3.2298
+Epoch 3/3, Batch 300, Loss: 7.4287, Rec: 7.1693, CL: 2.5933
+Epoch 3/3, Batch 400, Loss: 7.7811, Rec: 7.4799, CL: 3.0119
+Epoch 3/3, Batch 500, Loss: 7.6851, Rec: 7.4717, CL: 2.1338
+Epoch 3/3, Batch 600, Loss: 7.8366, Rec: 7.6439, CL: 1.9269
+Epoch 3/3, Batch 700, Loss: 7.8033, Rec: 7.6110, CL: 1.9228
+Epoch 3/3, Batch 800, Loss: 7.4661, Rec: 7.2087, CL: 2.5742
+Epoch 3/3, Batch 900, Loss: 7.6886, Rec: 7.3942, CL: 2.9439
+Epoch 3/3, Batch 1000, Loss: 7.6004, Rec: 7.3019, CL: 2.9858
+Epoch 3/3, Batch 1100, Loss: 7.5339, Rec: 7.3110, CL: 2.2286
+Epoch 3/3, Batch 1200, Loss: 7.7700, Rec: 7.5056, CL: 2.6439
+Epoch 3/3, Batch 1300, Loss: 7.8648, Rec: 7.6058, CL: 2.5903
+Epoch 3/3, Batch 1400, Loss: 7.4334, Rec: 7.1659, CL: 2.6751
+Epoch 3/3, Batch 1500, Loss: 7.6515, Rec: 7.4038, CL: 2.4771
+Epoch 3/3, Batch 1600, Loss: 7.7807, Rec: 7.4963, CL: 2.8441
+Epoch 3/3, Batch 1700, Loss: 7.6373, Rec: 7.4049, CL: 2.3239
+Epoch 3/3, Batch 1800, Loss: 7.5148, Rec: 7.2237, CL: 2.9108
+Epoch 3/3, Batch 1900, Loss: 7.7097, Rec: 7.4511, CL: 2.5855
+Epoch 3/3, Batch 2000, Loss: 7.5427, Rec: 7.2171, CL: 3.2557
+Epoch 3/3, Batch 2100, Loss: 7.4142, Rec: 7.0983, CL: 3.1583
+Epoch 3/3, Batch 2200, Loss: 7.7699, Rec: 7.4676, CL: 3.0232
+Epoch 3/3, Batch 2300, Loss: 7.4802, Rec: 7.1297, CL: 3.5055
+Epoch 3/3, Batch 2400, Loss: 7.5282, Rec: 7.3135, CL: 2.1477
+Epoch 3/3, Batch 2500, Loss: 7.8851, Rec: 7.5581, CL: 3.2697
+Epoch 3/3, Batch 2600, Loss: 7.2978, Rec: 7.1043, CL: 1.9359
+Epoch 3/3, Batch 2700, Loss: 7.8129, Rec: 7.4813, CL: 3.3163
+Epoch 3/3, Batch 2800, Loss: 7.4811, Rec: 7.2307, CL: 2.5038
+Epoch 3/3, Batch 2900, Loss: 7.7432, Rec: 7.3967, CL: 3.4653
+Epoch 3/3, Batch 3000, Loss: 7.5631, Rec: 7.3500, CL: 2.1309
+Epoch 3/3, Batch 3100, Loss: 7.3159, Rec: 7.0935, CL: 2.2239
+Epoch 3/3, Batch 3200, Loss: 7.6778, Rec: 7.4299, CL: 2.4793
+Epoch 3/3, Batch 3300, Loss: 7.6032, Rec: 7.3525, CL: 2.5069
+Epoch 3/3, Batch 3400, Loss: 7.5498, Rec: 7.2838, CL: 2.6598
+Epoch 3/3, Batch 3500, Loss: 7.5317, Rec: 7.3417, CL: 1.8998
+Epoch 3/3, Batch 3600, Loss: 7.5583, Rec: 7.3175, CL: 2.4084
+Epoch 3/3, Batch 3700, Loss: 7.4275, Rec: 7.1571, CL: 2.7040
+Epoch 3/3, Batch 3800, Loss: 7.5859, Rec: 7.2378, CL: 3.4811
+Epoch 3/3, Batch 3900, Loss: 7.6149, Rec: 7.3236, CL: 2.9131
+Epoch 3/3, Batch 4000, Loss: 7.4918, Rec: 7.2272, CL: 2.6464
+Epoch 3/3, Batch 4100, Loss: 7.4904, Rec: 7.1977, CL: 2.9275
+Epoch 3/3, Batch 4200, Loss: 7.4302, Rec: 7.1960, CL: 2.3417
+Epoch 3/3, Batch 4300, Loss: 7.5063, Rec: 7.3137, CL: 1.9260
+Epoch 3/3, Batch 4400, Loss: 7.7005, Rec: 7.4013, CL: 2.9921
+Epoch 3/3, Batch 4500, Loss: 7.7244, Rec: 7.5297, CL: 1.9473
+Epoch 3 Training Loss: 7.6343, LR: 0.000000
+Epoch 3 Validation Loss: 6.7451
+Saved best model.

@@ -1,0 +1,19 @@
+# Large data files
+*.csv
+*.pth
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output folders
+analysis_output/
+
+# Logs (optional, can keep if small)
+# *.txt
+
+# IDE
+.vscode/
+.idea/
